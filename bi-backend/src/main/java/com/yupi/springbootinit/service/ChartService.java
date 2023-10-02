@@ -1,7 +1,10 @@
 package com.yupi.springbootinit.service;
 
-import com.yupi.springbootinit.model.Chart;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.yupi.springbootinit.model.dto.chart.ChartQueryRequest;
+import com.yupi.springbootinit.model.entity.Chart;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.yupi.springbootinit.model.entity.Post;
 
 /**
 * @author wengxiaoxiong
@@ -10,4 +13,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
 */
 public interface ChartService extends IService<Chart> {
 
+    public QueryWrapper<Chart> getQueryWrapper(ChartQueryRequest chartQueryRequest);
 }
