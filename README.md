@@ -10,7 +10,7 @@
 
 # 架构
 
-<img src="/Users/wengxiaoxiong/Library/Application Support/typora-user-images/image-20231002231628949.png" alt="image-20231002231628949" style="zoom:50%;" />
+<img src="./image-20231002231628949.png" alt="image-20231002231628949" style="zoom:50%;" />
 
 # 技术栈
 
